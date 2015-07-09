@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Project DefaultTargets="Debug" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<UsingTask TaskName="ScanAndFile" AssemblyFile="C:\source\ScanFilesMsBuildTask\bin\Debug\ScanFilesMsBuildTask.dll" />
+	<Target Name="Debug">
+		<ScanAndFile PathToAssets="C:\honourbound\Source\Code\DualityLauncher\obj\Debug\assets"/>
+	</Target>
+</Project>
